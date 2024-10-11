@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  background: #f7f7f7;
+}
+
+.background {
+  margin: 5% auto;
+  width: 400px;
+  height: fit-content
+}
+
+h3 {
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+.back {
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 40px;
+
+  .block {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .line {
+    width: 0;
+    height: 50%;
+    margin: auto 0;
+    border: 0.25px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+li {
+  all: unset;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border-right: 5px solid rgb(190, 0, 0);
+  margin-bottom: 10px;
+  padding: 0 10px;
+  transition: 0.3s;
+}
+
+li:hover {
+  background: red;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
