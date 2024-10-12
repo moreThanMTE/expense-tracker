@@ -5,8 +5,12 @@ let mainWindow;
 
 function createWindow() {
   mainWindow = new BrowserWindow({
-    width: 550,
-    height: 800,
+    width: 500,
+    minWidth: 500,
+    height: 750,
+    minHeight: 750,
+    autoHideMenuBar: true,
+    title: "expenseTracker",
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: true,
