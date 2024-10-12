@@ -11,6 +11,7 @@ function createWindow() {
     minHeight: 750,
     autoHideMenuBar: true,
     title: "expenseTracker",
+    icon: path.join(__dirname, 'out', 'favicon.png'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: true,
