@@ -1,7 +1,7 @@
 'use client'
 
 export default function Header() {
-  return <h2 style={{
+  return <h1 style={{
     marginBottom: '30px'
-  }}>Expense Tracker</h2>
+  }}>记账本</h1>
 }

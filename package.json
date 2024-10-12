@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-		"electron": "electron electron.js",
+    "electron": "electron electron/electron.js",
     "postinstall": "electron-builder install-app-deps",
     "dist": "electron-builder"
   },

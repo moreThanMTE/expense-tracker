@@ -30,12 +30,12 @@ export default function AddNew({ tracker }: any) {
 
   return (
     <>
-      <h3>Add new transaction</h3>
+      <h3>记录交易</h3>
       <form onSubmit={handleSubmit}>
-        <p>Text</p>
+        <p>备注</p>
         <input type="text" placeholder="Enter text..." className={style.Input} value={formText} onChange={textChange} />
-        <p>Amount</p>
-        <p>(income +, expense -)</p>
+        <p>金额</p>
+        <p>(收入填正数 支出填负数)</p>
         <input type="text" placeholder="Enter amount..." className={style.Input} value={formAmount === 0 ? '' : formAmount} onChange={amountChange} />
         <button type="submit" style={{
           width: '100%',
@@ -45,7 +45,7 @@ export default function AddNew({ tracker }: any) {
           color: 'white',
           marginTop: '10px'
         }}
-          disabled={formText === '' && formAmount === 0 || '' ? true : false}>Add transaction</button>
+          disabled={formText === '' && formAmount === 0 || '' ? true : false}>记录交易</button>
       </form>
     </>
   )

@@ -3,7 +3,7 @@ export default function History({ tracker }: any) {
     <div style={{
       marginBottom: '30px'
     }}>
-      <h3>History</h3>
+      <h3>历史记录</h3>
       <ul>
         {tracker.liItem}
       </ul>

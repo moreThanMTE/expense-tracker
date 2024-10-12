@@ -11,14 +11,14 @@ function createWindow() {
     minHeight: 750,
     autoHideMenuBar: true,
     title: "expenseTracker",
-    icon: path.join(__dirname, 'out', 'favicon.png'),
+    icon: path.join(__dirname, '../out', 'favicon.png'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
       nodeIntegration: true,
     },
   });
 
-  mainWindow.loadFile(path.join(__dirname, 'out', 'index.html'));
+  mainWindow.loadFile(path.join(__dirname, '../out', 'index.html'));
 
   mainWindow.on('closed', function () {
     mainWindow = null;
