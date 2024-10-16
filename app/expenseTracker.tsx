@@ -68,7 +68,7 @@ export function useExpenseTracker() {
     setLiItem(historyList.map(item => {
       return <li key={item.id} onClick={() => removeItem(item)}>
         <p>{item.text}</p>
-        <p className={item.amount < 0 ? "red" : "green"}>${item.amount}</p>
+        <p className={item.amount < 0 ? "red" : "green"}>￥{item.amount}</p>
       </li>
     }))
   }, [historyList])
