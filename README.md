@@ -24,3 +24,8 @@ npm run postinstall // 安装electron的依赖
 
 npm run dist // 打包electron至dist
 ```
+
+## CHANGS
+<ul>
+  <li>24.10.16 添加了数据库依赖 确保数据存储</li>
+</ul>
