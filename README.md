@@ -2,7 +2,7 @@
 一个练手的小项目
 <a href="https://github.com/bradtraversy/vue-expense-tracker">这里是原项目仓库</a>，此项目是在观看视频之后自己使用react+next复刻出来的
 ![主体图片](./imgs/main.png "主体图片")
-## CHANGS
+## CHANGES
 <ul>
   <li>24.10.16 添加了数据库依赖 确保数据存储</li>
 </ul>
